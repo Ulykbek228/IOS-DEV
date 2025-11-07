@@ -1,22 +1,22 @@
 import Foundation
 
-// Тестовые сценарии из задания
+
 func runTests() {
     print("=== 🧪 TESTING SHOPPING CART SYSTEM ===\n")
     
-    // 1. Create sample products
+   
     print("1. Creating sample products...")
     let laptop = Product(name: "MacBook Pro", price: 1999.99, category: .electronics)!
     let book = Product(name: "Swift Programming", price: 39.99, category: .books)!
     let headphones = Product(name: "AirPods", price: 179.99, category: .electronics)!
     
-    // 2. Test adding items to cart
+   
     print("\n2. Testing cart operations...")
     let cart = ShoppingCart()
     cart.addItem(product: laptop, quantity: 1)
     cart.addItem(product: book, quantity: 2)
     
-    // 3. Test adding same product twice
+   
     print("\n3. Testing quantity updates...")
     cart.addItem(product: laptop, quantity: 1)
     

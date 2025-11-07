@@ -94,6 +94,12 @@ class ViewController: UIViewController {
             
         ])
     }
+    private func scrollongUI () {
+        scrollongUI() = scrollongUI()
+    
+        
+        
+    }
     
     private func setupAppearance() {
         view.backgroundColor = .systemBlue
@@ -118,14 +124,10 @@ class ViewController: UIViewController {
             
         }
         
-        
-        
-        
-        
     }
 }
 import SwiftUI
-
 #Preview {
     ViewController()
 }
+
